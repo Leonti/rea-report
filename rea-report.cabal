@@ -19,3 +19,5 @@ executable rea-report
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
                         , sqlite-simple == 0.4.12.1
+                        , gps == 1.2
+                        , split == 0.1.2.3
